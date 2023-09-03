@@ -10,7 +10,8 @@ namespace PII_Game_Of_Life
         Printer consoleRenderer = new Printer();
         GameOfLife gameOfLife = new GameOfLife(boardLoader, gameLogic, consoleRenderer);
 
-        string filePath = @"Conways_Game_Of_Life\src\Program\board.txt";
+        string filePath = @"board.txt";
+    
         gameOfLife.Start(filePath);
     }
 }
