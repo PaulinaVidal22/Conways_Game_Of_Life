@@ -3,7 +3,7 @@
 
 namespace PII_Game_Of_Life
 {
-    public class BoardLoader //service provider
+    public class BoardLoader //Service Provider
         {
         public bool[,] LoadBoardFromFile(string url)
         {

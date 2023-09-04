@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace PII_Game_Of_Life
 {
-    public class GameOfLife //coordinator
+    public class GameOfLife //Coordinator
 {
     private bool[,] currentGeneration;
     private readonly BoardLoader boardLoader;

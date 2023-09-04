@@ -3,7 +3,7 @@ using System.Text;
 
 namespace PII_Game_Of_Life 
 {
-    public class Printer //structurer
+    public class Printer //Structurer
 {
     public void Print(bool[,] board)
     {
